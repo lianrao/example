@@ -14,7 +14,6 @@ release.properties
 .DS_Store
 /target/
 
-null/
 
 /.idea/
 /example-for-jwt.iml
