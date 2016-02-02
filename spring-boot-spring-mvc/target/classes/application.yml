@@ -1,0 +1,35 @@
+
+# Server settings
+server:
+    port:8080
+    address:localhost
+
+# DATASOURCE
+jdbc:
+    #driverClass:
+    url: jdbc:postgresql://localhost/rocket2-integration
+    username: jrocket2
+    password: jrocket2
+
+# SPRING PROFILES
+spring:
+    # HTTP ENCODING
+    http:
+        encoding.charset: UTF-8
+        encoding.enable: true
+        encoding.force: true
+
+
+# MyBatis
+mybatis:
+    typeAliasesPackage: com.rda.spring.boot.mapper
+    mapperLocations: classpath:/mapper/*.xml
+    configLocation: classpath:/mybatis-config.xml
+
+# LOGGING
+logging:
+    level:
+       com.ibatis:DEBUG
+
+
+
